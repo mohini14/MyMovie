@@ -1,11 +1,6 @@
-package Utility;
+package com.example.mohini.mymovie.utility;
 
 import android.app.Activity;
-import android.content.Context;
-import android.view.MotionEvent;
-import android.view.View;
-import android.view.inputmethod.InputMethodManager;
-import android.widget.EditText;
 import android.widget.Toast;
 
 /**
@@ -39,7 +34,7 @@ public class Utility  {
 
     public static void showToast(Activity act, String message){
 
-        Toast toast=Toast.makeText(act.getApplicationContext(), message,Toast.LENGTH_SHORT);
+        Toast toast=Toast.makeText(act.getApplicationContext(), message,Toast.LENGTH_LONG);
         toast.show();
     }
 }

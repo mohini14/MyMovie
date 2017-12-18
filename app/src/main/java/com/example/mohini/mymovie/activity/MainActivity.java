@@ -1,7 +1,9 @@
-package com.example.mohini.mymovie;
+package com.example.mohini.mymovie.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.example.mohini.mymovie.R;
 
 public class MainActivity extends AppCompatActivity {
 
